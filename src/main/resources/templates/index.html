@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1000/xhtml">
+ <head th:replace="dynamic/header :: dynamic-header" />
+  <body>
+   <div class="container">
+  		 <div th:replace="dynamic/header :: navbar"> </div><!-- end navbar -->
+         <div th:replace="dynamic/header :: content"> </div><!-- end content -->
+   </div> <!-- /container -->
+   
+   
+   <div th:replace="dynamic/header :: body-bottom-scripts">
+ 	</div>
+  </body>
+</html>
